@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-dnd="true">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--<![endif]-->
+    <!--[if (gte mso 9)|(IE)]><style type="text/css">table {border-collapse: collapse;}table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}img {-ms-interpolation-mode: bicubic;}</style><![endif]-->
+    <style>
+        @page {
+            margin: 10px;
+            size: A4 portrait;
+        }
+
+        table {
+            margin: 0;
+            padding: 0;
+            width: 100.0%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-family: "Arial", "Helvetica", "sans-serif";
+            border-collapse: collapse
+        }
+
+        td,
+        th {
+            padding: 0
+        }
+
+        table {
+            border-collapse: collapse !important
+        }
+
+            table span {
+                font-size: 9pt;
+                font-family: "Arial", "Helvetica", "sans-serif";
+                color: #000000;
+                text-decoration: none;
+            }
+
+
+            table td,
+            table th {
+                background-color: #fff !important
+            }
+
+        table {
+            width: 100%;
+            max-width: 100%;
+            /* margin-bottom: 18px */
+        }
+
+            table .logo {
+                display: block;
+                width: 200px;
+                margin: 0 10px;
+            }
+
+            table h4 {
+                margin: 0;
+                margin-top: 20px;
+            }
+
+            table .table-backgroung {
+                background-color: #ECECEC !important;
+                padding: 10pt 15pt 7pt 15pt;
+            }
+
+            table .table-transactions {
+                background: white;
+                padding: 0pt 0pt 0pt 0pt;
+                border: 1px solid #dddddd;
+                font-size: 10pt;
+            }
+
+        .table-backgroung h4 {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        table .table-transactions tr td {
+            border-bottom: 1px solid #dddddd;
+            border-left: 1px solid #dddddd;
+            padding: 3pt 6pt 3pt 6pt;
+            font-size: 10pt;
+        }
+
+            table .table-transactions tr td.bold {
+                font-weight: 600;
+            }
+
+            table .table-transactions tr td.exc-bg {
+                font-weight: 600;
+                color: #2C2E83 !important;
+                font-size: 11pt;
+                padding: 8px 0;
+                background-color: #e5e5e5 !important;
+            }
+
+                table .table-transactions tr td.exc-bg span {
+                    font-size: 11pt;
+                    color: #2C2E83 !important;
+                }
+
+        table .tarm-settlement {
+            background: white;
+            padding: 10px;
+            font-size: 10pt;
+        }
+
+        table .table-settlement {
+            background: white;
+            padding: 10pt;
+            border: 1px solid #dddddd;
+            font-size: 10pt;
+        }
+
+            table .table-settlement tr td {
+                border-bottom: 1px solid #dddddd;
+                border-left: 1px solid #dddddd;
+                padding: 3pt 6pt 3pt 6pt;
+            }
+
+                table .table-settlement tr td.settlement-header,
+                table .table-settlement tr td.no-border {
+                    border-bottom: 1px solid #dddddd;
+                    background-color: #e5e5e5 !important;
+                    border-left: 1px solid #dddddd;
+                    padding: 3pt 6pt 3pt 6pt;
+                    font-weight: 600;
+                }
+
+        table p {
+            margin: 0in;
+            margin-bottom: 2.5pt;
+            margin-left: 0in;
+            line-height: 13.0pt;
+            border: none;
+            padding: 0in
+        }
+
+        .logo-table {
+            margin: 20px 0;
+        }
+
+        .stallment-info {
+            width: 100.0%;
+            font-size: 9pt;
+        }
+
+            .stallment-info .noborder {
+                border: 0;
+                border-bottom: 1px solid #dddddd;
+                font-weight: 600;
+            }
+
+        table .heading {
+            margin: 0;
+            padding: 0;
+            font-size: 20pt;
+        }
+
+        table .sub-heading span {
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+
+        table tr td.header-info {
+            padding: 15px 0;
+        }
+
+        table tr td.tarm-about {
+            padding: 5px 15px;
+        }
+
+        table tr td.info-about {
+            padding: 15px 5px 0 15px;
+            font-weight: 600;
+        }
+
+
+        table.stallment-info td {
+            border-bottom: 1px solid #dddddd;
+            border-left: 1px solid #dddddd;
+            padding: 3pt 6pt 3pt 6pt;
+        }
+
+            table.stallment-info td:first-child {
+                font-weight: 600;
+                border-left: 0;
+            }
+
+        table.table-devider {
+            border-bottom: 1px solid #dddddd;
+            border-top: 1px solid #dddddd;
+            padding: 3pt 6pt 3pt 6pt;
+        }
+
+        table .table-transactions tr td.exchange-bg {
+            border-bottom: 1px solid #dddddd;
+            background: #f2f2f2 !important;
+            padding: 3pt 6pt 3pt 6pt;
+        }
+
+        table .table-transactions tr .exchange-bg-info {
+            margin: 0 auto;
+            max-width: 80%;
+            line-height: 16pt;
+            text-align: left;
+        }
+
+        table .table-transactions tr td.exchange-about {
+            text-align: left;
+            display: inline-block;
+            width: 120px
+        }
+
+        .table-dot {
+            width: 7px;
+            height: 7px;
+            display: inline-block;
+            background: #999999;
+            border-radius: 40px;
+            margin-right: 10px;
+        }
+
+        .total-amount {
+            font-weight: 600;
+            font-size: 12pt;
+        }
+
+        .total-text {
+            padding: 3pt 6pt 3pt 6pt;
+            font-size: 11pt;
+            font-weight: 600;
+        }
+
+        .settlement-header {
+            border-bottom: 1px solid #dddddd;
+            background-color: #e5e5e5;
+            font-weight: 600;
+        }
+
+        .no-border {
+            border-bottom: 1px solid #dddddd;
+            background-color: #e5e5e5;
+            padding: 3pt 6pt 3pt 6pt;
+            font-weight: 600;
+        }
+
+        .table-footer {
+            border-left: 1px solid #dddddd;
+            padding: 0 10pt 0 10pt;
+            width: 40%;
+            padding-right: 15pt;
+        }
+
+        .signature {
+            font-size: 13pt;
+            color: #000000;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+
+        table a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .tb-heading {
+            background-color: #dddddd;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 120%;
+            text-transform: uppercase;
+        }
+
+        .auth-sign {
+            font-size: 8.5pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .auth-sign-para {
+            margin: 0in;
+            margin-bottom: 2.5pt;
+            margin-left: 0in;
+            line-height: 16.0pt;
+            border: none;
+            padding: 0in
+        }
+
+        .auth-name {
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        .table-invoice {
+            background: white;
+            padding: 0pt 0pt 0pt 0pt;
+            border: 1px solid #dddddd;
+            border-left: 0;
+            font-size: 10pt;
+            margin-bottom: 30px;
+        }
+
+            .table-invoice tr td {
+                /* border-bottom: 1px solid #dddddd; */
+                border-left: 1px solid #dddddd;
+                padding: 3pt 6pt 3pt 6pt;
+            }
+
+            .table-invoice tr .center {
+                border-bottom: 1px solid #dddddd;
+                background-color: #e5e5e5 !important;
+                border-left: 1px solid #dddddd;
+                padding: 3pt 6pt 3pt 6pt;
+                font-weight: 600;
+                text-align: center;
+            }
+
+        .table-border {
+            border-left: 1px solid #dddddd;
+            padding-left: 15pt;
+        }
+    </style>
+
+</head>
+<body style="width: 100%; margin:0 auto; padding:0;">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <div align="center">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div align="center">
+                                                            <h4 class="tb-heading">Tax Invoice</h4>
+                                                            <table class="logo-table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="40%" valign="top">
+                                                                            <a href="https://www.globecapital.com/"
+                                                                               style="display:block; margin:0 auto; padding:15px">
+                                                                                <img class="logo" title="Globecapital" src="webmailer/logo.png" alt="logo" />
+                                                                            </a>
+                                                                        </td>
+                                                                        <td width="20%" valign="top"></td>
+                                                                        <td valign="top" class="table-border">
+                                                                            <div>
+                                                                                <h4 style="margin:0; margin-bottom:10px;">Travel India Tours</h4>
+                                                                                <p>
+                                                                                    <span>
+                                                                                        A UNIIQUE HOUSE Of A.C. & NON A.C. Luxury/Deluxe. Mini Coaches. &Dly
+                                                                                        /Dlz CAR
+                                                                                    </span>
+                                                                                </p><br />
+                                                                                <p>
+                                                                                    <span>
+                                                                                        <b>ADDRESS :</b> 17/44 geeta colony Delhi Near Near SBI
+                                                                                        Delhi-110031
+                                                                                    </span>
+                                                                                </p>
+                                                                                <p>
+                                                                                    <span><b>Contact No.:</b> 011-23720883</span>, <span>
+                                                                                        FAX:</b>
+                                                                                        011-23720883
+                                                                                    </span>
+                                                                                </p>
+                                                                                <p>
+                                                                                    <span><b>GSTIN NO. :</b> 07AAACG4267G2ZO</span>
+                                                                                </p>
+                                                                                <p>
+                                                                                    <span>
+                                                                                        <b>Email:</b>
+                                                                                        <a href="mailto:gagantit@gmail.com"
+                                                                                           title="01143666400">gagantit@gmail.com</a>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="table-invoice">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td class="center">Date&nbsp;/&nbsp;DS.&nbsp;No.</td>
+                                                    <td class="center">Vehical&nbsp;Type</td>
+                                                    <td class="center">DUTY DESCRIPTION/&nbsp;PARTICULAR</td>
+                                                    <td class="center">Rate</td>
+                                                    <td class="center">Ammount</td>
+                                                </tr>
+                                                <tr>
+                                                    <td width='20%'>23-08-2019&nbsp;<b>TO</b>&nbsp;25-08-2019</td>
+                                                    <td width='10%'>
+                                                        <p>DL1ZA3669</p>
+                                                        <p><b>XCENT</b></p>
+                                                    </td>
+                                                    <td align="left">
+                                                        Net Amount
+                                                        receivable by Client/ (payable by Client) (Rs)
+                                                    </td>
+                                                    <td width='10%' align="right">0.00</td>
+                                                    <td width='10%' align="right" style="font-weight:600; font-size:12pt;">
+                                                        -137320.00
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%"
+                                               style=" padding-top:30px; width:100.0%">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="background:white;padding:0pt 0pt 0pt 0pt; border-top:1px solid #dddddd;">
+                                                        <div align="center">
+                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:10pt 0;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0" width="100%"
+                                                                                   style="width:100.0%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top">
+                                                                                            <div>
+                                                                                                <h4>Place:</h4>
+                                                                                                <p>
+                                                                                                    <span>
+                                                                                                        New
+                                                                                                        Delhi
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div>
+                                                                                                <h4 style="margin:0; margin-top:20px;">Date :</h4>
+                                                                                                <p>
+                                                                                                    <span>21-05-2018</span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td width="40%" valign="top" class="table-border">
+                                                                                            <div>
+                                                                                                <p>
+                                                                                                    <span>
+                                                                                                        Yours
+                                                                                                        Faithfully,
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <h4 class="auth-name">TRAVEL INDIA TOURS</h4>
+                                                                                                <br /><br />
+                                                                                                <p style="margin:0in;margin-bottom:0pt;margin-left:0in;line-height:16.0pt;border:none;padding:0in">
+                                                                                                    <span class="auth-sign">Signature of Authorized Signatories</span>
+                                                                                                </p>
+
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="table-backgroung">
+                                        <h4>Terms & Condition</h4>
+                                        <p>
+                                            <span>
+                                                E & O.E Subject to Delhi Jurisdiction.
+                                                Our Responsibility of the signed duty slip resets till we handover them to you with the bill.
+                                                Interest chargeable on bills not paid on presentation @ 18% p.a.
+                                                Passengers Tax, Toll tax, Interstate taxes, Car parking Etc. will be charged on actual basis on
+                                                production of receipts.
+                                                GST, if Applicable will be charged extra. A subsequent bill will be issued for the same.
+                                                In case of discrepancy , Kindly return the bill for necessary correction within 10 days or it
+                                                shall be treated as O.K. and
+                                                You shall be liable to pay the full amount.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span>
+                                                Compliance Officer Name : </b> KAPIL MARWAH&nbsp;&nbsp;|&nbsp;&nbsp;Email Id :</b>
+                                                <a style="text-decoration:none; font-size: 9pt; color:inherit"
+                                                   href="mailto:mail@globecapital.com">compliance@globecapital.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;Tel.
+                                                No. :</b>
+                                                <a style="text-decoration:none; font-size: 9pt;color:inherit" href="tel:01130412345"
+                                                   title="011-30412345">011-30412345</a>
+                                            </span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
